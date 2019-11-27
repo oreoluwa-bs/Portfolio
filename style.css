@@ -88,7 +88,9 @@ div, article, section, header, footer, nav, li {
 /* line 90, scss/style.scss */
 body {
   font-size: 100%;
-  font-family: "ff-meta-serif-web-pro", Georgia, serif; }
+  font-family: "ff-meta-serif-web-pro", Georgia, serif; 
+  scroll-behavior: smooth !important;
+}
 
 /* line 95, scss/style.scss */
 ::-moz-selection {
@@ -467,7 +469,8 @@ header[role="banner"] nav {
 ---------------------------------------------------------------------------------------------------------- */
 /* line 437, scss/style.scss */
 #home {
-  background: #d24d57 url(images/header-bg.jpg) 50% 0 no-repeat fixed;
+  /* background: #000 url(images/header-bg.jpg) 50% 0 no-repeat fixed; */
+  background: #252525;
   padding: 12.5em 0;
   color: #fff;
   text-align: center;
@@ -482,12 +485,14 @@ header[role="banner"] nav {
   @media screen and (max-width: 1024px) {
     /* line 437, scss/style.scss */
     #home {
-      background: #d24d57 url(images/header-bg-1024.jpg) 50% 0 no-repeat fixed;
+      /* background: #d24d57 url(images/header-bg-1024.jpg) 50% 0 no-repeat fixed; */
       padding: 10em 0; } }
     @media screen and (max-width: 1024px) and (min--moz-device-pixel-ratio: 1.3), screen and (max-width: 1024px) and (-o-min-device-pixel-ratio: 2.6 / 2), screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.3), screen and (max-width: 1024px) and (min-device-pixel-ratio: 1.3), screen and (max-width: 1024px) and (min-resolution: 1.3dppx) {
       /* line 437, scss/style.scss */
       #home {
-        background-image: url("images/header-bg-1024%402x.jpg"); } }
+        /* background-image: url("images/header-bg-1024%402x.jpg");  */
+        } 
+      }
   @media screen and (max-width: 768px) {
     /* line 437, scss/style.scss */
     #home {
@@ -495,7 +500,7 @@ header[role="banner"] nav {
   @media screen and (max-width: 640px) {
     /* line 437, scss/style.scss */
     #home {
-      background: #d24d57 url(images/header-bg-640.jpg) 50% 0 no-repeat fixed;
+      /* background: #d24d57 url(images/header-bg-640.jpg) 50% 0 no-repeat fixed; */
       padding: 2.5em 0; } }
   @media screen and (min-width: 1600px) {
     /* line 437, scss/style.scss */
@@ -575,7 +580,9 @@ header[role="banner"] nav {
 /* line 513, scss/style.scss */
 #home .check-work:hover {
   background: #fff;
-  color: #d24d57; }
+  /* color: #d24d57;  */
+  color: #000;
+}
 
 /* ---------------------------------------------------------------------------------------------------------- 
 07 Portfolio Section ----------------------------------------------------------------------------------------
@@ -1019,7 +1026,8 @@ header[role="banner"] nav {
 ---------------------------------------------------------------------------------------------------------- */
 /* line 905, scss/style.scss */
 #about {
-  background: #d24d57 url(images/stream.jpg) no-repeat;
+  /* background: #d24d57 url(images/stream.jpg) no-repeat; */
+  background: #016052;
   color: #fff;
   text-align: center;
   padding: 14.375em 0; }
